@@ -1,0 +1,12 @@
+#!/usr/bin/python
+
+f = open('/path/to/file','r')
+lines = []
+for index, text in enumerate(f):
+# Choose lines to be printed ####
+     if 2 <= index <= 10:
+             lines.append(text)
+             print (text)
+#             print lines
+
+f.close()
