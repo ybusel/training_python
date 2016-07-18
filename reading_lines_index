@@ -8,5 +8,9 @@ for index, text in enumerate(f):
              lines.append(text)
              print (text)
 #             print lines
+# or another way to do that: 
+#file = f.readlines()
+#line = file[line number]
+#print line
 
 f.close()
